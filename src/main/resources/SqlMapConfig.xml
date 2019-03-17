@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMapConfig      
+    PUBLIC "-//ibatis.apache.org//DTD SQL Map Config 2.0//EN"      
+    "http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
+
+<sqlMapConfig>
+
+  <!-- settings
+	add these to test bug 976614
+	enhancementEnabled="false"
+    lazyLoadingEnabled="false"
+  -->
+  <settings
+    cacheModelsEnabled="true"
+    enhancementEnabled="false"
+    lazyLoadingEnabled="true"
+    statementCachingEnabled="false"
+    useStatementNamespaces="false"
+    />
+
+
+ 
+
+</sqlMapConfig>
